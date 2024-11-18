@@ -5,10 +5,7 @@ from pathlib import Path
 def extract():
     # Create Output folder if it doesn't exist
     output_dir = Path.cwd() / "Data"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-# Enable the below code when connecting with Outlook and extract files    
-    
+    output_dir.mkdir(parents=True, exist_ok=True)    
 
     # Connect to Outlook
     outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
@@ -27,7 +24,7 @@ def extract():
     for message in messages:
         print('success')
         subject = message.Subject
-        body = message.Body  # Corrected to 'Body' for accessing message body
+        body = message.Body  
         attachments = message.Attachments
 
         # Create a folder for each message based on the subject and current timestamp
