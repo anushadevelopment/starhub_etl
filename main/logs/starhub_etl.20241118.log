@@ -1,0 +1,43 @@
+2024-11-18 13:11:13,272 INFO transform:92 - <module>: Script running
+2024-11-18 13:11:22,713 INFO transform:92 - <module>: Script running
+2024-11-18 13:13:52,433 INFO transform:92 - <module>: Script running
+2024-11-18 13:18:24,191 INFO transform:92 - <module>: Script running
+2024-11-18 13:24:36,680 INFO transform:92 - <module>: Script running
+2024-11-18 13:24:52,382 INFO transform:92 - <module>: Script running
+2024-11-18 13:27:36,501 INFO transform:93 - <module>: Script running
+2024-11-18 13:32:30,127 INFO transform:102 - <module>: Script running
+2024-11-18 13:33:56,205 INFO transform:102 - <module>: Script running
+2024-11-18 13:34:36,077 INFO transform:102 - <module>: Script running
+2024-11-18 13:35:55,087 INFO transform:103 - <module>: Script running
+2024-11-18 13:39:55,931 INFO transform:103 - <module>: Script running
+2024-11-18 13:39:56,488 ERROR load_data:124 - insert_data: ERROR: Error while inserting records to active_services table. Exception: name 'active_servs' is not defined
+2024-11-18 14:29:04,687 INFO transform:108 - <module>: Script running
+2024-11-18 14:30:06,889 INFO transform:108 - <module>: Script running
+2024-11-18 14:30:17,354 INFO transform:126 - <module>: ETL completed successfully! 
+2024-11-18 14:31:18,770 INFO transform:108 - <module>: Script running
+2024-11-18 14:31:19,061 INFO transform:125 - <module>: ETL started
+2024-11-18 14:31:29,562 INFO transform:127 - <module>: ETL completed successfully! 
+2024-11-18 14:33:46,429 INFO transform:108 - <module>: Script running
+2024-11-18 14:33:46,690 INFO transform:125 - <module>: ETL started
+2024-11-18 14:33:46,957 INFO load_data:36 - create_conn:  Establish Postgressql connection is successful
+2024-11-18 14:33:57,209 INFO transform:127 - <module>: ETL completed successfully! 
+2024-11-18 14:38:17,649 INFO transform:108 - <module>: Script running
+2024-11-18 14:38:17,932 INFO transform:125 - <module>: ETL started
+2024-11-18 14:38:18,183 INFO load_data:36 - create_conn:  Establishing Postgressql connection is successful
+2024-11-18 14:38:18,185 INFO load_data:102 - create_table:  Table creation is successful
+2024-11-18 14:38:28,810 INFO analysis:99 - analysis:  Record insertion of service_analysis_snapshot table is successful
+2024-11-18 14:38:28,817 INFO transform:127 - <module>: ETL completed successfully! 
+2024-11-18 14:39:17,235 INFO transform:108 - <module>: Script running
+2024-11-18 14:39:17,498 INFO transform:125 - <module>: ETL started
+2024-11-18 14:39:17,756 INFO load_data:36 - create_conn:  Establishing Postgressql connection is successful
+2024-11-18 14:39:17,776 INFO load_data:102 - create_table:  Table creation is successful
+2024-11-18 14:39:24,487 INFO analysis:99 - analysis:  Record insertion of service_analysis_snapshot table is successful
+2024-11-18 14:39:24,492 INFO transform:127 - <module>: ETL completed successfully! 
+2024-11-18 14:45:27,476 INFO transform:108 - <module>: Script running
+2024-11-18 14:45:27,768 INFO transform:125 - <module>: ETL started
+2024-11-18 14:45:28,050 INFO load_data:36 - create_conn:  Establishing Postgressql connection is successful
+2024-11-18 14:45:28,051 INFO load_data:102 - create_table:  Table creation is successful
+2024-11-18 14:45:28,051 INFO load_data:133 - insert_data: Record insertion of active_services table is successful
+2024-11-18 14:45:34,433 INFO load_data:171 - insert_data: Record insertion of order_tb table is successful
+2024-11-18 14:45:34,935 INFO analysis:99 - analysis: Record insertion of service_analysis_snapshot table is successful
+2024-11-18 14:45:34,942 INFO transform:127 - <module>: ETL completed successfully! 
